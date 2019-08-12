@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Demo Suite]">
+  <listeners>
+    <listener class-name="com.epam.cdp.cal.listeners.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Mult Cal Test(failed)">
+    <classes>
+      <class name="com.epam.cdp.cal.tests.testng.MultCalTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="doubleOneMultTwoTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.testng.MultCalTest -->
+    </classes>
+  </test> <!-- Mult Cal Test(failed) -->
+  <test thread-count="5" name="Cos Cal Test(failed)">
+    <classes>
+      <class name="com.epam.cdp.cal.tests.testng.CosCalTest">
+        <methods>
+          <include name="CosTest" invocation-numbers="0 1 2 3"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.testng.CosCalTest -->
+    </classes>
+  </test> <!-- Cos Cal Test(failed) -->
+  <test thread-count="5" name="Ctg Cal Test(failed)">
+    <classes>
+      <class name="com.epam.cdp.cal.tests.testng.CtgCalTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="TgTest" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.testng.CtgCalTest -->
+    </classes>
+  </test> <!-- Ctg Cal Test(failed) -->
+  <test thread-count="5" name="Pow Cal Test(failed)">
+    <classes>
+      <class name="com.epam.cdp.cal.tests.testng.PowCalTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="PowTest" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.testng.PowCalTest -->
+    </classes>
+  </test> <!-- Pow Cal Test(failed) -->
+  <test thread-count="5" name="Sin Cal Test(failed)">
+    <classes>
+      <class name="com.epam.cdp.cal.tests.testng.SinCalTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="SinTest" invocation-numbers="1 2 3"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.testng.SinCalTest -->
+    </classes>
+  </test> <!-- Sin Cal Test(failed) -->
+  <test thread-count="5" name="Tg Cal Test(failed)">
+    <classes>
+      <class name="com.epam.cdp.cal.tests.testng.TgCalTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TgTest" invocation-numbers="0 2 3"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.cdp.cal.tests.testng.TgCalTest -->
+    </classes>
+  </test> <!-- Tg Cal Test(failed) -->
+</suite> <!-- Failed suite [Demo Suite] -->
