@@ -1,4 +1,4 @@
-package com.epam.cdp.tests;
+package com.epam.cdp.tests.testng;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

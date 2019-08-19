@@ -6,63 +6,63 @@
     </listeners>
     <test name="Sub Cal Test">
         <classes>
-            <class name="com.epam.cdp.tests.SubCalTest"/>
+            <class name="com.epam.cdp.tests.testng.SubCalTest"/>
         </classes>
     </test>
     <test name="Sum Cal Test">
         <classes>
-            <class name="com.epam.cdp.tests.SumCalTest"/>
+            <class name="com.epam.cdp.tests.testng.SumCalTest"/>
         </classes>
     </test>
 
     <test name="Mult Cal Test">
         <classes>
-            <class name="com.epam.cdp.tests.MultCalTest"/>
+            <class name="com.epam.cdp.tests.testng.MultCalTest"/>
         </classes>
     </test>
     <test name="Div Cal Test">
         <classes>
-            <class name="com.epam.cdp.tests.DivCalTest"/>
+            <class name="com.epam.cdp.tests.testng.DivCalTest"/>
         </classes>
     </test>
     <test name="Cos Cal Test">
         <classes>
-            <class name="com.epam.cdp.tests.CosCalTest"/>
+            <class name="com.epam.cdp.tests.testng.CosCalTest"/>
         </classes>
     </test>
     <test name="Ctg Cal Test">
         <classes>
-            <class name="com.epam.cdp.tests.CtgCalTest"/>
+            <class name="com.epam.cdp.tests.testng.CtgCalTest"/>
         </classes>
     </test>
     <test name="IsNegative Cal Test">
         <classes>
-            <class name="com.epam.cdp.tests.IsNegativeCalTest"/>
+            <class name="com.epam.cdp.tests.testng.IsNegativeCalTest"/>
         </classes>
     </test>
     <test name="IsPositive Cal Test">
         <classes>
-            <class name="com.epam.cdp.tests.IsPositiveCalTest"/>
+            <class name="com.epam.cdp.tests.testng.IsPositiveCalTest"/>
         </classes>
     </test>
     <test name="Pow Cal Test">
         <classes>
-            <class name="com.epam.cdp.tests.PowCalTest"/>
+            <class name="com.epam.cdp.tests.testng.PowCalTest"/>
         </classes>
     </test>
     <test name="Sin Cal Test">
         <classes>
-            <class name="com.epam.cdp.tests.SinCalTest"/>
+            <class name="com.epam.cdp.tests.testng.SinCalTest"/>
         </classes>
     </test>
     <test name="Sqrt Cal Test">
         <classes>
-            <class name="com.epam.cdp.tests.SqrtCalTest"/>
+            <class name="com.epam.cdp.tests.testng.SqrtCalTest"/>
         </classes>
     </test>
     <test name="Tg Cal Test">
         <classes>
-            <class name="com.epam.cdp.tests.TgCalTest"/>
+            <class name="com.epam.cdp.tests.testng.TgCalTest"/>
         </classes>
     </test>
 </suite>

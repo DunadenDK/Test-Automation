@@ -1,24 +1,27 @@
 package com.epam.cdp.tests.junit;
 
-import org.junit.Assert;
-import org.junit.Rule;
-import org.junit.Test;
-import org.junit.rules.ExpectedException;
 
-import java.util.Date;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+
 
 public class CosCalTest extends BaseTest {
 
-    @Rule
-    public final ExpectedException exception = ExpectedException.none();
+    @Test(dataProvider = "valuesForCosTest")
+    public void CosTest(double a, double expectedValue) {
+        double result = calculator.cos(a);
+        Assert.assertEquals(result, expectedValue, "Invalid result of cos operation!");
+    }
 
-    @Test
-    public void cosBug() throws InterruptedException { //returns sinus of 'a' as the result : return Math.sin(a);
-        Thread.sleep(1000);
-        System.out.println("Junit Time is: " + new Date(System.currentTimeMillis()));
-        double result = calculator.cos(-5.0);
-        System.out.println("Actual result is: " + result);
-        System.out.println("Expected result is: " + Math.cos(-5.0));
-        Assert.assertTrue(result == Math.cos(-5.0));
+    @DataProvider(name = "valuesForCosTest")
+    public Object[][] valuesForSinTest() {
+        return new Object[][]{
+                {0,  1},
+                {60, 0.5},
+                {90,0},
+                {180,-1}
+        };
     }
 }

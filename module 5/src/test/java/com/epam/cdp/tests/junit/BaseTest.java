@@ -5,7 +5,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 public class BaseTest {
-	public static double DELTA = 0.000001;
+//	public static double DELTA = 0.000001;
 
 	protected Calculator calculator;
 
