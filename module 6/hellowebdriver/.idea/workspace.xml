@@ -2,10 +2,144 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b25d1415-6515-46fd-9b12-ec6b2534daf0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/listeners/TestListeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/main/resources/calculator-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/JunitRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/listeners/TestListeners.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/junit/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/junit/CosCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/junit/CtgCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/junit/DivCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/junit/IsNegativeCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/junit/IsPositiveCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/junit/MultCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/junit/PowCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/junit/SinCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/junit/SqrtCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/junit/SubCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/junit/SumCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/junit/TgCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/testng/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/testng/CosCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/testng/CtgCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/testng/DivCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/testng/IsNegativeCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/testng/IsPositiveCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/testng/MultCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/testng/PowCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/testng/SinCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/testng/SqrtCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/testng/SubCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/testng/SumCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/java/com/epam/cdp/cal/tests/testng/TgCalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/src/test/resources/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Default suite/Default test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Default suite/Default test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Default suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Cos Cal Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Cos Cal Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Ctg Cal Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Ctg Cal Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Div Cal Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Div Cal Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/IsNegative Cal Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/IsNegative Cal Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/IsPositive Cal Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/IsPositive Cal Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Mult Cal Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Mult Cal Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Pow Cal Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Pow Cal Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Sin Cal Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Sin Cal Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Sqrt Cal Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Sqrt Cal Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Sub Cal Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Sub Cal Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Sum Cal Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Sum Cal Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Tg Cal Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/Tg Cal Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/Demo Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.SubCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.SumCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.CosCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.CtgCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.DivCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.IsNegativeCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.IsPositiveCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.MultCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.PowCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.SinCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.SqrtCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.SubCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.SumCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.TgCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.testng.CosCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.testng.CtgCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.testng.DivCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.testng.IsNegativeCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.testng.IsPositiveCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.testng.MultCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.testng.PowCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.testng.SinCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.testng.SqrtCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.testng.SubCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.testng.SumCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/junitreports/TEST-com.epam.cdp.cal.tests.testng.TgCalTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Default suite/Default test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Default suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Default suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Default suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Default suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Default suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Default suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Default suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Default suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Default suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Default suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/Cos Cal Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/Ctg Cal Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/Div Cal Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/IsNegative Cal Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/IsPositive Cal Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/Mult Cal Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/Pow Cal Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/Sin Cal Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/Sqrt Cal Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/Sub Cal Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/Sum Cal Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/Tg Cal Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/Demo Suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/maven-demo/test-output/testng.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HelloWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HelloWebDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HelloWebDriver.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,7 +163,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/HelloWebDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
+            <state relative-caret-position="285">
               <caret line="33" column="162" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="162" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -103,6 +237,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -139,7 +274,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,7 +333,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -259,7 +392,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HelloWebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
+        <state relative-caret-position="285">
           <caret line="33" column="162" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="162" />
           <folding>
             <element signature="imports" expanded="true" />
