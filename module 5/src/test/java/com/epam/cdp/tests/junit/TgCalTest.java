@@ -1,24 +1,37 @@
 package com.epam.cdp.tests.junit;
 
-import org.testng.Assert;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.junit.Assert;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import java.util.Arrays;
+import java.util.Collection;
 
+@RunWith (Parameterized.class)
 public class TgCalTest extends BaseTest {
-    @Test(dataProvider = "valuesForTgTest")
-    public void TgTest(double a, double expectedValue) {
-        double result = calculator.tg(a);
-        Assert.assertEquals(result, expectedValue, "Invalid result of tg operation!");
+
+    private double firstNumber;
+    private double expectedResult;
+
+    public TgCalTest(double firstNumber, double expectedResult) {
+        this.firstNumber = firstNumber;
+        this.expectedResult = expectedResult;
     }
 
-    @DataProvider(name = "valuesForTgTest")
-    public Object[][] valuesForTgTest() {
-        return new Object[][] {
+    @Parameterized.Parameters
+    public static Collection primeNumbers() {
+        return Arrays.asList(new Object[][]{
                 {0,  0},
                 {45, 1},
                 {180,0},
                 {360,0}
-        };
+        });
     }
 
+    @Test
+    public void TestTgCal() {
+        double result = calculator.tg(firstNumber);
+        Assert.assertEquals(expectedResult, result, DELTA);
+
+    }
 }

@@ -1,23 +1,38 @@
 package com.epam.cdp.tests.junit;
 
-import org.testng.Assert;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.junit.Assert;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import java.util.Arrays;
+import java.util.Collection;
 
+@RunWith(Parameterized.class)
 public class PowCalTest extends BaseTest {
-    @Test(dataProvider = "valuesForPowTest")
-    public void PowTest(double a, double b, double expectedValue) {
-        double result = calculator.pow(a, b);
-        Assert.assertEquals(result, expectedValue, "Invalid result of pow operation!");
+    private double firstNumber;
+    private double secondNumber;
+    private double expectedResult;
+
+    public PowCalTest(double firstNumber, double secondNumber, double expectedResult) {
+        this.firstNumber = firstNumber;
+        this.secondNumber = secondNumber;
+        this.expectedResult = expectedResult;
     }
 
-    @DataProvider(name = "valuesForPowTest")
-    public Object[][] valuesForPowTest() {
-        return new Object[][] {
-                {10, 23, 33},
-                {10, -1, 9},
-                {0, 0, 0},
-                {-1, 10, 9}
-        };
+    @Parameterized.Parameters
+    public static Collection primeNumbers() {
+        return Arrays.asList(new Object[][] {
+                {7, 2, 49},
+                {4, -2, 2},
+                {0, 0, 1},
+                {-1, 2, 1}
+        });
+    }
+
+    @Test
+    public void TestPow() {
+        double result = calculator.pow(firstNumber,secondNumber);
+        Assert.assertEquals(expectedResult, result, DELTA);
+
     }
 }

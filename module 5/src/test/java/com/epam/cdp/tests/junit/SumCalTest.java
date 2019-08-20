@@ -1,43 +1,44 @@
 package com.epam.cdp.tests.junit;
 
-import org.testng.Assert;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.junit.Assert;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import java.util.Arrays;
+import java.util.Collection;
 
+@RunWith(Parameterized.class)
 public class SumCalTest extends BaseTest {
+	private double firstNumber;
+	private double secondNumber;
+	private double expectedResult;
 
-	@Test(dataProvider = "valuesForSunTest")
-	public void onePlusTwoTest(long a, long b, long expectedValue) {
-		long result = calculator.sum(a, b);
-		Assert.assertEquals(result, expectedValue, "Invalid result of sum operation!");
+	public SumCalTest(double firstNumber, double secondNumber, double expectedResult) {
+		this.firstNumber = firstNumber;
+		this.secondNumber = secondNumber;
+		this.expectedResult = expectedResult;
 	}
-	
-	@DataProvider(name = "valuesForSunTest") 
-	public Object[][] valuesForSum() {
-		return new Object[][] {
+
+	@Parameterized.Parameters
+	public static Collection primeNumbers() {
+		return Arrays.asList(new Object[][] {
 				{10, 23, 33},
 				{10, -1, 9},
 				{0, 0, 0},
-				{-1, 10, 9}
-		};
-	}
-
-	@Test(dataProvider = "doubleValuesForSunTest")
-	public void doubleOnePlusTwoTest(double a, double b, double expectedValue) {
-		double result = calculator.sum(a, b);
-		Assert.assertEquals(result, expectedValue, "Invalid result of sum operation!");
-	}
-
-	@DataProvider(name = "doubleValuesForSunTest")
-	public Object[][] doubleValuesForSum() {
-		return new Object[][] {
+				{-1, 10, 9},
 				{10.6, 23.4, 34.0},
 				{10.56, -1.56, 9.0},
 				{0.0, 0.0, 0.0},
 				{-1.45, 10.45, 9.0},
 				{-1.5, -10.5, -12.0}
-		};
+		});
 	}
 
+	@Test
+	public void TestSum() {
+		double result = calculator.sum(firstNumber,secondNumber);
+		Assert.assertEquals(expectedResult, result, DELTA);
 
+	}
 }
+	

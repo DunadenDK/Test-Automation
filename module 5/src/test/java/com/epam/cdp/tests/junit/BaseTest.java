@@ -1,20 +1,22 @@
 package com.epam.cdp.tests.junit;
 
 import com.epam.tat.module4.Calculator;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.junit.After;
+import org.junit.Before;
+
+
 
 public class BaseTest {
-//	public static double DELTA = 0.000001;
+public static double DELTA = 0.000001;
 
 	protected Calculator calculator;
 
-	@BeforeClass
+	@Before
 	public void setUp() {
 		calculator = new Calculator();
 	}
 
-	@AfterClass
+	@After
 	public void tearDown() {
 		calculator = null;
 	}

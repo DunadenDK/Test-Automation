@@ -7,7 +7,12 @@
   <version>1.0-SNAPSHOT</version>
 
   <packaging>jar</packaging>
-
+  <repositories>
+    <repository>
+      <id>http://maven.xwiki.org</id>
+      <url>http://maven.xwiki.org/externals</url>
+    </repository>
+  </repositories>
   <name>calc</name>
 
   <url>http://maven.apache.org</url>

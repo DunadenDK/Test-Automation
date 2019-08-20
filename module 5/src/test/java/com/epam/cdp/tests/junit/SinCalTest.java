@@ -1,23 +1,37 @@
 package com.epam.cdp.tests.junit;
 
-import org.testng.Assert;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import java.util.Arrays;
+import java.util.Collection;
 
+import static org.junit.Assert.assertEquals;
+
+@RunWith (Parameterized.class)
 public class SinCalTest extends BaseTest {
-    @Test(dataProvider = "valuesForSinTest")
-    public void SinTest(double a, double expectedValue) {
-        double result = calculator.sin(a);
-        Assert.assertEquals(result, expectedValue, "Invalid result of sin operation!");
+
+    private double firstNumber;
+    private double expectedResult;
+
+    public SinCalTest(double firstNumber, double expectedResult) {
+        this.firstNumber = firstNumber;
+        this.expectedResult = expectedResult;
     }
 
-    @DataProvider(name = "valuesForSinTest")
-    public Object[][] valuesForSinTest() {
-        return new Object[][] {
+    @Parameterized.Parameters
+    public static Collection primeNumbers() {
+        return Arrays.asList(new Object[][]{
                 {0, 0},
                 {30, 0.5},
                 {90, 1},
                 {270, -1}
-        };
+        });
+    }
+
+    @Test
+    public void TestSin() {
+        double result = calculator.sin(firstNumber);
+        assertEquals(expectedResult, result, DELTA);
     }
 }

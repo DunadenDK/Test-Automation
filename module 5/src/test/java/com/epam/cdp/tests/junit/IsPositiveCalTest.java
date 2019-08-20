@@ -1,24 +1,36 @@
 package com.epam.cdp.tests.junit;
 
-import org.testng.Assert;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.junit.Assert;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import java.util.Arrays;
+import java.util.Collection;
 
+@RunWith(Parameterized.class)
 public class IsPositiveCalTest extends BaseTest {
-    @Test(dataProvider = "valuesForIsPositiveTest")
-    public void IsPositiveTest(long val, boolean expectedValue) {
-        boolean result = calculator.isPositive(val);
-        Assert.assertEquals(result, expectedValue, "Invalid result of isPositive operation!");
+    private long firstNumber;
+    private boolean expectedResult;
+
+    public IsPositiveCalTest(long firstNumber, boolean expectedResult) {
+        this.firstNumber = firstNumber;
+        this.expectedResult = expectedResult;
     }
 
-    @DataProvider(name = "valuesForIsPositiveTest")
-    public Object[][] valuesForIsPositiveTest() {
-        return new Object[][] {
+    @Parameterized.Parameters
+    public static Collection primeNumbers() {
+        return Arrays.asList(new Object[][]{
                 {0,  false},
                 {1, true},
                 {90,true},
                 {-2,false}
-        };
+        });
     }
 
+    @Test
+    public void TestPositive() {
+        boolean result = calculator.isPositive(firstNumber);
+        Assert.assertEquals(expectedResult, result);
+
+    }
 }

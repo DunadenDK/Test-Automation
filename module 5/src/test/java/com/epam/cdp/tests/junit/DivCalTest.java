@@ -1,41 +1,39 @@
 package com.epam.cdp.tests.junit;
 
-import org.testng.Assert;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.junit.Assert;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import java.util.Arrays;
+import java.util.Collection;
 
+@RunWith(Parameterized.class)
 public class DivCalTest extends BaseTest {
-    @Test(dataProvider = "valuesForDivTest")
-    public void oneDivTwoTest(long a, long b, long expectedValue) {
-        long result = calculator.div(a, b);
-        Assert.assertEquals(result, expectedValue, "Invalid result of div operation!");
+    private double firstNumber;
+    private double secondNumber;
+    private double expectedResult;
+
+    public DivCalTest(double firstNumber, double secondNumber, double expectedResult) {
+        this.firstNumber = firstNumber;
+        this.secondNumber = secondNumber;
+        this.expectedResult = expectedResult;
     }
 
-    @DataProvider(name = "valuesForDivTest")
-    public Object[][] valuesForDiv() {
-        return new Object[][] {
+    @Parameterized.Parameters
+    public static Collection primeNumbers() {
+        return Arrays.asList(new Object[][] {
                 {6, 3, 2},
                 {10, -1, -10},
                 {0, 1, 0},
                 {-10, -10, 1}
- //             {-10, 0, }
-        };
+        });
     }
 
-    @Test(dataProvider = "doubleValuesForDivTest")
-    public void doubleOneDivTwoTest(double a, double b, double expectedValue) {
-        double result = calculator.div(a, b);
-        Assert.assertEquals(result, expectedValue, "Invalid result of div operation!");
-    }
+    @Test
+    public void TestDiv() {
+        double result = calculator.div(firstNumber,secondNumber);
+        Assert.assertEquals(expectedResult, result, DELTA);
 
-    @DataProvider(name = "doubleValuesForDivTest")
-    public Object[][] doubleValuesForDiv() {
-        return new Object[][] {
-                {1.5, 3, 0.5},
-                {3, -1.5, -2.0},
-                {0.0, 1, 0.0},
-                {-1.55, -1.55, 1.0}
- //               {4,0}
-        };
     }
 }
+

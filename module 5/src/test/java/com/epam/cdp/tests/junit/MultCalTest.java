@@ -1,39 +1,39 @@
 package com.epam.cdp.tests.junit;
 
-import org.testng.Assert;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+import org.junit.Assert;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import java.util.Arrays;
+import java.util.Collection;
 
+@RunWith(Parameterized.class)
 public class MultCalTest extends BaseTest {
-    @Test(dataProvider = "valuesForMultTest")
-    public void oneMultTwoTest(long a, long b, long expectedValue) {
-        long result = calculator.mult(a, b);
-        Assert.assertEquals(result, expectedValue, "Invalid result of mult operation!");
+    private double firstNumber;
+    private double secondNumber;
+    private double expectedResult;
+
+    public MultCalTest(double firstNumber, double secondNumber, double expectedResult) {
+        this.firstNumber = firstNumber;
+        this.secondNumber = secondNumber;
+        this.expectedResult = expectedResult;
     }
 
-    @DataProvider(name = "valuesForMultTest")
-    public Object[][] valuesForMult() {
-        return new Object[][] {
+    @Parameterized.Parameters
+    public static Collection primeNumbers() {
+        return Arrays.asList(new Object[][] {
                 {5, 3, 15},
                 {10, -1, -10},
                 {0, 0, 0},
                 {6, 10, 60}
-        };
+        });
     }
 
-    @Test(dataProvider = "doubleValuesForMultTest")
-    public void doubleOneMultTwoTest(double a, double b, double expectedValue) {
-        double result = calculator.mult(a, b);
-        Assert.assertEquals(result, expectedValue, "Invalid result of mult operation!");
-    }
+    @Test
+    public void TestMult() {
+        double result = calculator.mult(firstNumber,secondNumber);
+        Assert.assertEquals(expectedResult, result, DELTA);
 
-    @DataProvider(name = "doubleValuesForMultTest")
-    public Object[][] doubleValuesForMult() {
-        return new Object[][] {
-                {1.5, 3, 4.5},
-                {10, -1.5, -15.0},
-                {0.0, 0.0, 0.0},
-                {-1.55, -100, 155.0}
-        };
     }
 }
+
