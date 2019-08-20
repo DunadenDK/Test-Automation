@@ -2,22 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b25d1415-6515-46fd-9b12-ec6b2534daf0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../module 5/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/CosCalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/CosCalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/CtgCalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/CtgCalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/DivCalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/DivCalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/IsNegativeCalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/IsNegativeCalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/IsPositiveCalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/IsPositiveCalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/MultCalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/MultCalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/PowCalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/PowCalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/SinCalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/SinCalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/SqrtCalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/SqrtCalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/SubCalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/SubCalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/SumCalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/SumCalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/TestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/TgCalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/junit/TgCalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/testng/DivCalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/testng/DivCalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/testng/MultCalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/testng/MultCalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/testng/PowCalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/testng/PowCalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/testng/SqrtCalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/src/test/java/com/epam/cdp/tests/testng/SqrtCalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Cos Cal Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Cos Cal Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Cos Cal Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Cos Cal Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Ctg Cal Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Ctg Cal Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Ctg Cal Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Ctg Cal Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Div Cal Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Div Cal Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Div Cal Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Div Cal Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/IsNegative Cal Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/IsNegative Cal Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/IsNegative Cal Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/IsNegative Cal Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/IsPositive Cal Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/IsPositive Cal Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/IsPositive Cal Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/IsPositive Cal Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Mult Cal Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Mult Cal Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Mult Cal Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Mult Cal Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Pow Cal Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Pow Cal Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Pow Cal Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Pow Cal Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Sin Cal Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Sin Cal Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Sin Cal Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Sin Cal Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Sqrt Cal Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Sqrt Cal Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Sqrt Cal Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Sqrt Cal Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Sub Cal Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Sub Cal Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Sub Cal Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Sub Cal Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Sum Cal Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Sum Cal Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Sum Cal Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Sum Cal Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Tg Cal Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Tg Cal Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Tg Cal Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/Tg Cal Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/Demo Suite/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/old/Demo Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/old/Demo Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/old/Demo Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/old/Demo Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/old/Demo Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/old/Demo Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/old/Demo Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/old/Demo Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/old/Demo Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/old/Demo Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../module 5/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../module 5/test-output/testng-results.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -158,7 +186,7 @@
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565786697374" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../module 5/maven-demo" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/git repos/web" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />

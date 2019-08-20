@@ -25,7 +25,7 @@ public class DivCalTest extends BaseTest {
                 {6, 3, 2},
                 {10, -1, -10},
                 {0, 1, 0},
-                {-10, -10, 1}
+                {-10, -2.5, 4}
         });
     }
 

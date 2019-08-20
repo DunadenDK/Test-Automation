@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="17" ignored="0" total="55" passed="38">
+<testng-results skipped="0" failed="14" ignored="0" total="55" passed="41">
   <reporter-output>
   </reporter-output>
-  <suite name="Demo Suite" duration-ms="3016" started-at="2019-08-19T15:51:37 GMT+04:00" finished-at="2019-08-19T15:51:41 GMT+04:00">
+  <suite name="Demo Suite" duration-ms="3271" started-at="2019-08-20T20:42:16 GMT+04:00" finished-at="2019-08-20T20:42:20 GMT+04:00">
     <groups>
     </groups>
-    <test name="Sub Cal Test" duration-ms="79" started-at="2019-08-19T15:51:37 GMT+04:00" finished-at="2019-08-19T15:51:38 GMT+04:00">
-      <class name="com.epam.cdp.tests.SubCalTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.SubCalTest@194a1b5]" name="setUp" is-config="true" duration-ms="31" started-at="2019-08-19T15:51:38 GMT+04:00" finished-at="2019-08-19T15:51:38 GMT+04:00">
+    <test name="Sub Cal Test" duration-ms="80" started-at="2019-08-20T20:42:16 GMT+04:00" finished-at="2019-08-20T20:42:17 GMT+04:00">
+      <class name="com.epam.cdp.tests.testng.SubCalTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.testng.SubCalTest@8dacdf]" name="setUp" is-config="true" duration-ms="20" started-at="2019-08-20T20:42:16 GMT+04:00" finished-at="2019-08-20T20:42:16 GMT+04:00">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="twoMinusOne(long, long, long)[pri:0, instance:com.epam.cdp.tests.SubCalTest@194a1b5]" name="twoMinusOne" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" data-provider="valuesForSubTest" finished-at="2019-08-19T15:51:38 GMT+04:00">
+        <test-method status="PASS" signature="twoMinusOne(long, long, long)[pri:0, instance:com.epam.cdp.tests.testng.SubCalTest@8dacdf]" name="twoMinusOne" duration-ms="0" started-at="2019-08-20T20:42:16 GMT+04:00" data-provider="valuesForSubTest" finished-at="2019-08-20T20:42:16 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -32,28 +32,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoMinusOne -->
-        <test-method status="PASS" signature="twoMinusOne(long, long, long)[pri:0, instance:com.epam.cdp.tests.SubCalTest@194a1b5]" name="twoMinusOne" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" data-provider="valuesForSubTest" finished-at="2019-08-19T15:51:38 GMT+04:00">
+        <test-method status="PASS" signature="twoMinusOne(long, long, long)[pri:0, instance:com.epam.cdp.tests.testng.SubCalTest@8dacdf]" name="twoMinusOne" duration-ms="0" started-at="2019-08-20T20:42:17 GMT+04:00" data-provider="valuesForSubTest" finished-at="2019-08-20T20:42:17 GMT+04:00">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10]]>
+                <![CDATA[0]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[-1]]>
+                <![CDATA[0]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[11]]>
+                <![CDATA[0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoMinusOne -->
-        <test-method status="PASS" signature="twoMinusOne(long, long, long)[pri:0, instance:com.epam.cdp.tests.SubCalTest@194a1b5]" name="twoMinusOne" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" data-provider="valuesForSubTest" finished-at="2019-08-19T15:51:38 GMT+04:00">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.testng.SubCalTest@8dacdf]" name="tearDown" is-config="true" duration-ms="4" started-at="2019-08-20T20:42:17 GMT+04:00" finished-at="2019-08-20T20:42:17 GMT+04:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="twoMinusOne(long, long, long)[pri:0, instance:com.epam.cdp.tests.testng.SubCalTest@8dacdf]" name="twoMinusOne" duration-ms="0" started-at="2019-08-20T20:42:17 GMT+04:00" data-provider="valuesForSubTest" finished-at="2019-08-20T20:42:17 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -74,86 +78,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoMinusOne -->
-        <test-method status="PASS" signature="twoMinusOne(long, long, long)[pri:0, instance:com.epam.cdp.tests.SubCalTest@194a1b5]" name="twoMinusOne" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" data-provider="valuesForSubTest" finished-at="2019-08-19T15:51:38 GMT+04:00">
+        <test-method status="PASS" signature="twoMinusOne(long, long, long)[pri:0, instance:com.epam.cdp.tests.testng.SubCalTest@8dacdf]" name="twoMinusOne" duration-ms="0" started-at="2019-08-20T20:42:17 GMT+04:00" data-provider="valuesForSubTest" finished-at="2019-08-20T20:42:17 GMT+04:00">
           <params>
             <param index="0">
               <value>
-                <![CDATA[0]]>
+                <![CDATA[10]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[0]]>
+                <![CDATA[-1]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[0]]>
+                <![CDATA[11]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- twoMinusOne -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.SubCalTest@194a1b5]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" finished-at="2019-08-19T15:51:38 GMT+04:00">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.epam.cdp.tests.SubCalTest -->
+      </class> <!-- com.epam.cdp.tests.testng.SubCalTest -->
     </test> <!-- Sub Cal Test -->
-    <test name="Sum Cal Test" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" finished-at="2019-08-19T15:51:38 GMT+04:00">
-      <class name="com.epam.cdp.tests.SumCalTest">
-        <test-method status="PASS" signature="onePlusTwo(long, long, long)[pri:0, instance:com.epam.cdp.tests.SumCalTest@1f983a6]" name="onePlusTwo" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" data-provider="valuesForSumTest" finished-at="2019-08-19T15:51:38 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[9]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- onePlusTwo -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.SumCalTest@1f983a6]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" finished-at="2019-08-19T15:51:38 GMT+04:00">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="onePlusTwo(long, long, long)[pri:0, instance:com.epam.cdp.tests.SumCalTest@1f983a6]" name="onePlusTwo" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" data-provider="valuesForSumTest" finished-at="2019-08-19T15:51:38 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- onePlusTwo -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.SumCalTest@1f983a6]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" finished-at="2019-08-19T15:51:38 GMT+04:00">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="onePlusTwo(long, long, long)[pri:0, instance:com.epam.cdp.tests.SumCalTest@1f983a6]" name="onePlusTwo" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" data-provider="valuesForSumTest" finished-at="2019-08-19T15:51:38 GMT+04:00">
+    <test name="Sum Cal Test" duration-ms="0" started-at="2019-08-20T20:42:17 GMT+04:00" finished-at="2019-08-20T20:42:17 GMT+04:00">
+      <class name="com.epam.cdp.tests.testng.SumCalTest">
+        <test-method status="PASS" signature="onePlusTwo(long, long, long)[pri:0, instance:com.epam.cdp.tests.testng.SumCalTest@6776ad]" name="onePlusTwo" duration-ms="0" started-at="2019-08-20T20:42:17 GMT+04:00" data-provider="valuesForSumTest" finished-at="2019-08-20T20:42:17 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -174,7 +124,36 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onePlusTwo -->
-        <test-method status="PASS" signature="onePlusTwo(long, long, long)[pri:0, instance:com.epam.cdp.tests.SumCalTest@1f983a6]" name="onePlusTwo" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" data-provider="valuesForSumTest" finished-at="2019-08-19T15:51:38 GMT+04:00">
+        <test-method status="PASS" signature="onePlusTwo(long, long, long)[pri:0, instance:com.epam.cdp.tests.testng.SumCalTest@6776ad]" name="onePlusTwo" duration-ms="0" started-at="2019-08-20T20:42:17 GMT+04:00" data-provider="valuesForSumTest" finished-at="2019-08-20T20:42:17 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onePlusTwo -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.testng.SumCalTest@6776ad]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:17 GMT+04:00" finished-at="2019-08-20T20:42:17 GMT+04:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.testng.SumCalTest@6776ad]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:17 GMT+04:00" finished-at="2019-08-20T20:42:17 GMT+04:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="onePlusTwo(long, long, long)[pri:0, instance:com.epam.cdp.tests.testng.SumCalTest@6776ad]" name="onePlusTwo" duration-ms="0" started-at="2019-08-20T20:42:17 GMT+04:00" data-provider="valuesForSumTest" finished-at="2019-08-20T20:42:17 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -195,145 +174,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onePlusTwo -->
-      </class> <!-- com.epam.cdp.tests.SumCalTest -->
-    </test> <!-- Sum Cal Test -->
-    <test name="Mult Cal Test" duration-ms="15" started-at="2019-08-19T15:51:38 GMT+04:00" finished-at="2019-08-19T15:51:38 GMT+04:00">
-      <class name="com.epam.cdp.tests.MultCalTest">
-        <test-method status="PASS" signature="oneMultTwoTest(long, long, long)[pri:0, instance:com.epam.cdp.tests.MultCalTest@1f256fa]" name="oneMultTwoTest" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" data-provider="valuesForMultTest" finished-at="2019-08-19T15:51:38 GMT+04:00">
+        <test-method status="PASS" signature="onePlusTwo(long, long, long)[pri:0, instance:com.epam.cdp.tests.testng.SumCalTest@6776ad]" name="onePlusTwo" duration-ms="0" started-at="2019-08-20T20:42:17 GMT+04:00" data-provider="valuesForSumTest" finished-at="2019-08-20T20:42:17 GMT+04:00">
           <params>
             <param index="0">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- oneMultTwoTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.MultCalTest@1f256fa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" finished-at="2019-08-19T15:51:38 GMT+04:00">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="doubleOneMultTwoTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.MultCalTest@1f256fa]" name="doubleOneMultTwoTest" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" data-provider="doubleValuesForMultTest" finished-at="2019-08-19T15:51:38 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-1.55]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-100]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[155.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- doubleOneMultTwoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.MultCalTest@1f256fa]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" finished-at="2019-08-19T15:51:38 GMT+04:00">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="oneMultTwoTest(long, long, long)[pri:0, instance:com.epam.cdp.tests.MultCalTest@1f256fa]" name="oneMultTwoTest" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" data-provider="valuesForMultTest" finished-at="2019-08-19T15:51:38 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[6]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- oneMultTwoTest -->
-        <test-method status="PASS" signature="oneMultTwoTest(long, long, long)[pri:0, instance:com.epam.cdp.tests.MultCalTest@1f256fa]" name="oneMultTwoTest" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" data-provider="valuesForMultTest" finished-at="2019-08-19T15:51:38 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="1">
               <value>
                 <![CDATA[-1]]>
               </value>
             </param>
-            <param index="2">
-              <value>
-                <![CDATA[-10]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- oneMultTwoTest -->
-        <test-method status="PASS" signature="oneMultTwoTest(long, long, long)[pri:0, instance:com.epam.cdp.tests.MultCalTest@1f256fa]" name="oneMultTwoTest" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" data-provider="valuesForMultTest" finished-at="2019-08-19T15:51:38 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
             <param index="1">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[15]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- oneMultTwoTest -->
-        <test-method status="PASS" signature="doubleOneMultTwoTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.MultCalTest@1f256fa]" name="doubleOneMultTwoTest" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" data-provider="doubleValuesForMultTest" finished-at="2019-08-19T15:51:38 GMT+04:00">
-          <params>
-            <param index="0">
               <value>
                 <![CDATA[10]]>
               </value>
             </param>
-            <param index="1">
-              <value>
-                <![CDATA[-1.5]]>
-              </value>
-            </param>
             <param index="2">
               <value>
-                <![CDATA[-15.0]]>
+                <![CDATA[9]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doubleOneMultTwoTest -->
-        <test-method status="FAIL" signature="doubleOneMultTwoTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.MultCalTest@1f256fa]" name="doubleOneMultTwoTest" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" data-provider="doubleValuesForMultTest" finished-at="2019-08-19T15:51:38 GMT+04:00">
+        </test-method> <!-- onePlusTwo -->
+      </class> <!-- com.epam.cdp.tests.testng.SumCalTest -->
+    </test> <!-- Sum Cal Test -->
+    <test name="Mult Cal Test" duration-ms="8" started-at="2019-08-20T20:42:17 GMT+04:00" finished-at="2019-08-20T20:42:17 GMT+04:00">
+      <class name="com.epam.cdp.tests.testng.MultCalTest">
+        <test-method status="FAIL" signature="doubleOneMultTwoTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.testng.MultCalTest@aa5eb0]" name="doubleOneMultTwoTest" duration-ms="4" started-at="2019-08-20T20:42:17 GMT+04:00" data-provider="doubleValuesForMultTest" finished-at="2019-08-20T20:42:17 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -360,7 +226,7 @@
 at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.failNotEquals(Assert.java:969)
 at org.testng.Assert.assertEquals(Assert.java:640)
-at com.epam.cdp.tests.MultCalTest.doubleOneMultTwoTest(MultCalTest.java:26)
+at com.epam.cdp.tests.testng.MultCalTest.doubleOneMultTwoTest(MultCalTest.java:26)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -394,7 +260,11 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doubleOneMultTwoTest -->
-        <test-method status="PASS" signature="doubleOneMultTwoTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.MultCalTest@1f256fa]" name="doubleOneMultTwoTest" duration-ms="0" started-at="2019-08-19T15:51:38 GMT+04:00" data-provider="doubleValuesForMultTest" finished-at="2019-08-19T15:51:38 GMT+04:00">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.testng.MultCalTest@aa5eb0]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:17 GMT+04:00" finished-at="2019-08-20T20:42:17 GMT+04:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doubleOneMultTwoTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.testng.MultCalTest@aa5eb0]" name="doubleOneMultTwoTest" duration-ms="0" started-at="2019-08-20T20:42:17 GMT+04:00" data-provider="doubleValuesForMultTest" finished-at="2019-08-20T20:42:17 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -415,19 +285,32 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doubleOneMultTwoTest -->
-      </class> <!-- com.epam.cdp.tests.MultCalTest -->
-    </test> <!-- Mult Cal Test -->
-    <test name="Div Cal Test" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" finished-at="2019-08-19T15:51:39 GMT+04:00">
-      <class name="com.epam.cdp.tests.DivCalTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.DivCalTest@18c7aca]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" finished-at="2019-08-19T15:51:39 GMT+04:00">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="doubleOneDivTwoTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.DivCalTest@18c7aca]" name="doubleOneDivTwoTest" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" data-provider="doubleValuesForDivTest" finished-at="2019-08-19T15:51:39 GMT+04:00">
+        <test-method status="PASS" signature="oneMultTwoTest(long, long, long)[pri:0, instance:com.epam.cdp.tests.testng.MultCalTest@aa5eb0]" name="oneMultTwoTest" duration-ms="4" started-at="2019-08-20T20:42:17 GMT+04:00" data-provider="valuesForMultTest" finished-at="2019-08-20T20:42:17 GMT+04:00">
           <params>
             <param index="0">
               <value>
-                <![CDATA[1.5]]>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[60]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneMultTwoTest -->
+        <test-method status="PASS" signature="oneMultTwoTest(long, long, long)[pri:0, instance:com.epam.cdp.tests.testng.MultCalTest@aa5eb0]" name="oneMultTwoTest" duration-ms="0" started-at="2019-08-20T20:42:17 GMT+04:00" data-provider="valuesForMultTest" finished-at="2019-08-20T20:42:17 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
               </value>
             </param>
             <param index="1">
@@ -437,14 +320,106 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
             </param>
             <param index="2">
               <value>
-                <![CDATA[0.5]]>
+                <![CDATA[15]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doubleOneDivTwoTest -->
-        <test-method status="PASS" signature="doubleOneDivTwoTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.DivCalTest@18c7aca]" name="doubleOneDivTwoTest" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" data-provider="doubleValuesForDivTest" finished-at="2019-08-19T15:51:39 GMT+04:00">
+        </test-method> <!-- oneMultTwoTest -->
+        <test-method status="PASS" signature="doubleOneMultTwoTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.testng.MultCalTest@aa5eb0]" name="doubleOneMultTwoTest" duration-ms="0" started-at="2019-08-20T20:42:17 GMT+04:00" data-provider="doubleValuesForMultTest" finished-at="2019-08-20T20:42:17 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.55]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[155.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doubleOneMultTwoTest -->
+        <test-method status="PASS" signature="doubleOneMultTwoTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.testng.MultCalTest@aa5eb0]" name="doubleOneMultTwoTest" duration-ms="0" started-at="2019-08-20T20:42:17 GMT+04:00" data-provider="doubleValuesForMultTest" finished-at="2019-08-20T20:42:17 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-15.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doubleOneMultTwoTest -->
+        <test-method status="PASS" signature="oneMultTwoTest(long, long, long)[pri:0, instance:com.epam.cdp.tests.testng.MultCalTest@aa5eb0]" name="oneMultTwoTest" duration-ms="0" started-at="2019-08-20T20:42:17 GMT+04:00" data-provider="valuesForMultTest" finished-at="2019-08-20T20:42:17 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneMultTwoTest -->
+        <test-method status="PASS" signature="oneMultTwoTest(long, long, long)[pri:0, instance:com.epam.cdp.tests.testng.MultCalTest@aa5eb0]" name="oneMultTwoTest" duration-ms="0" started-at="2019-08-20T20:42:17 GMT+04:00" data-provider="valuesForMultTest" finished-at="2019-08-20T20:42:17 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneMultTwoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.testng.MultCalTest@aa5eb0]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:17 GMT+04:00" finished-at="2019-08-20T20:42:17 GMT+04:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.cdp.tests.testng.MultCalTest -->
+    </test> <!-- Mult Cal Test -->
+    <test name="Div Cal Test" duration-ms="8" started-at="2019-08-20T20:42:18 GMT+04:00" finished-at="2019-08-20T20:42:18 GMT+04:00">
+      <class name="com.epam.cdp.tests.testng.DivCalTest">
+        <test-method status="PASS" signature="doubleOneDivTwoTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.testng.DivCalTest@8bc3d5]" name="doubleOneDivTwoTest" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" data-provider="doubleValuesForDivTest" finished-at="2019-08-20T20:42:18 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -465,7 +440,11 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doubleOneDivTwoTest -->
-        <test-method status="PASS" signature="doubleOneDivTwoTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.DivCalTest@18c7aca]" name="doubleOneDivTwoTest" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" data-provider="doubleValuesForDivTest" finished-at="2019-08-19T15:51:39 GMT+04:00">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.testng.DivCalTest@8bc3d5]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" finished-at="2019-08-20T20:42:18 GMT+04:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="doubleOneDivTwoTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.testng.DivCalTest@8bc3d5]" name="doubleOneDivTwoTest" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" data-provider="doubleValuesForDivTest" finished-at="2019-08-20T20:42:18 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -486,28 +465,28 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doubleOneDivTwoTest -->
-        <test-method status="PASS" signature="oneDivTwoTest(long, long, long)[pri:0, instance:com.epam.cdp.tests.DivCalTest@18c7aca]" name="oneDivTwoTest" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" data-provider="valuesForDivTest" finished-at="2019-08-19T15:51:39 GMT+04:00">
+        <test-method status="PASS" signature="doubleOneDivTwoTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.testng.DivCalTest@8bc3d5]" name="doubleOneDivTwoTest" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" data-provider="doubleValuesForDivTest" finished-at="2019-08-20T20:42:18 GMT+04:00">
           <params>
             <param index="0">
               <value>
-                <![CDATA[0]]>
+                <![CDATA[1.5]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[1]]>
+                <![CDATA[3]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[0]]>
+                <![CDATA[0.5]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- oneDivTwoTest -->
-        <test-method status="PASS" signature="doubleOneDivTwoTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.DivCalTest@18c7aca]" name="doubleOneDivTwoTest" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" data-provider="doubleValuesForDivTest" finished-at="2019-08-19T15:51:39 GMT+04:00">
+        </test-method> <!-- doubleOneDivTwoTest -->
+        <test-method status="PASS" signature="doubleOneDivTwoTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.testng.DivCalTest@8bc3d5]" name="doubleOneDivTwoTest" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" data-provider="doubleValuesForDivTest" finished-at="2019-08-20T20:42:18 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -528,28 +507,7 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doubleOneDivTwoTest -->
-        <test-method status="PASS" signature="oneDivTwoTest(long, long, long)[pri:0, instance:com.epam.cdp.tests.DivCalTest@18c7aca]" name="oneDivTwoTest" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" data-provider="valuesForDivTest" finished-at="2019-08-19T15:51:39 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[-10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-10]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- oneDivTwoTest -->
-        <test-method status="PASS" signature="oneDivTwoTest(long, long, long)[pri:0, instance:com.epam.cdp.tests.DivCalTest@18c7aca]" name="oneDivTwoTest" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" data-provider="valuesForDivTest" finished-at="2019-08-19T15:51:39 GMT+04:00">
+        <test-method status="PASS" signature="oneDivTwoTest(long, long, long)[pri:0, instance:com.epam.cdp.tests.testng.DivCalTest@8bc3d5]" name="oneDivTwoTest" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" data-provider="valuesForDivTest" finished-at="2019-08-20T20:42:18 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -570,7 +528,7 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oneDivTwoTest -->
-        <test-method status="PASS" signature="oneDivTwoTest(long, long, long)[pri:0, instance:com.epam.cdp.tests.DivCalTest@18c7aca]" name="oneDivTwoTest" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" data-provider="valuesForDivTest" finished-at="2019-08-19T15:51:39 GMT+04:00">
+        <test-method status="PASS" signature="oneDivTwoTest(long, long, long)[pri:0, instance:com.epam.cdp.tests.testng.DivCalTest@8bc3d5]" name="oneDivTwoTest" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" data-provider="valuesForDivTest" finished-at="2019-08-20T20:42:18 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -591,75 +549,57 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- oneDivTwoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.DivCalTest@18c7aca]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" finished-at="2019-08-19T15:51:39 GMT+04:00">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.epam.cdp.tests.DivCalTest -->
-    </test> <!-- Div Cal Test -->
-    <test name="Cos Cal Test" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" finished-at="2019-08-19T15:51:39 GMT+04:00">
-      <class name="com.epam.cdp.tests.CosCalTest">
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.CosCalTest@1b6a447]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" finished-at="2019-08-19T15:51:39 GMT+04:00">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="CosTest(double, double)[pri:0, instance:com.epam.cdp.tests.CosCalTest@1b6a447]" name="CosTest" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" data-provider="valuesForCosTest" finished-at="2019-08-19T15:51:39 GMT+04:00">
+        <test-method status="PASS" signature="oneDivTwoTest(long, long, long)[pri:0, instance:com.epam.cdp.tests.testng.DivCalTest@8bc3d5]" name="oneDivTwoTest" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" data-provider="valuesForDivTest" finished-at="2019-08-20T20:42:18 GMT+04:00">
           <params>
             <param index="0">
               <value>
-                <![CDATA[90]]>
+                <![CDATA[-10]]>
               </value>
             </param>
             <param index="1">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneDivTwoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.testng.DivCalTest@8bc3d5]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" finished-at="2019-08-20T20:42:18 GMT+04:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="oneDivTwoTest(long, long, long)[pri:0, instance:com.epam.cdp.tests.testng.DivCalTest@8bc3d5]" name="oneDivTwoTest" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" data-provider="valuesForDivTest" finished-at="2019-08-20T20:42:18 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
               <value>
                 <![CDATA[0]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Invalid result of cos operation! did not expect to find [0.0] but found [0.8939966636005579]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Invalid result of cos operation! did not expect to find [0.0] but found [0.8939966636005579]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertEquals(Assert.java:640)
-at com.epam.cdp.tests.CosCalTest.CosTest(CosCalTest.java:11)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CosTest -->
-        <test-method status="FAIL" signature="CosTest(double, double)[pri:0, instance:com.epam.cdp.tests.CosCalTest@1b6a447]" name="CosTest" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" data-provider="valuesForCosTest" finished-at="2019-08-19T15:51:39 GMT+04:00">
+        </test-method> <!-- oneDivTwoTest -->
+      </class> <!-- com.epam.cdp.tests.testng.DivCalTest -->
+    </test> <!-- Div Cal Test -->
+    <test name="Cos Cal Test" duration-ms="4" started-at="2019-08-20T20:42:18 GMT+04:00" finished-at="2019-08-20T20:42:18 GMT+04:00">
+      <class name="com.epam.cdp.tests.testng.CosCalTest">
+        <test-method status="FAIL" signature="CosTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.CosCalTest@1f792cf]" name="CosTest" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" data-provider="valuesForCosTest" finished-at="2019-08-20T20:42:18 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -681,7 +621,7 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
 at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.failNotEquals(Assert.java:969)
 at org.testng.Assert.assertEquals(Assert.java:640)
-at com.epam.cdp.tests.CosCalTest.CosTest(CosCalTest.java:11)
+at com.epam.cdp.tests.testng.CosCalTest.CosTest(CosCalTest.java:11)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -715,7 +655,67 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CosTest -->
-        <test-method status="FAIL" signature="CosTest(double, double)[pri:0, instance:com.epam.cdp.tests.CosCalTest@1b6a447]" name="CosTest" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" data-provider="valuesForCosTest" finished-at="2019-08-19T15:51:39 GMT+04:00">
+        <test-method status="FAIL" signature="CosTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.CosCalTest@1f792cf]" name="CosTest" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" data-provider="valuesForCosTest" finished-at="2019-08-20T20:42:18 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of cos operation! did not expect to find [0.0] but found [0.8939966636005579]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of cos operation! did not expect to find [0.0] but found [0.8939966636005579]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.cdp.tests.testng.CosCalTest.CosTest(CosCalTest.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CosTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.testng.CosCalTest@1f792cf]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" finished-at="2019-08-20T20:42:18 GMT+04:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="FAIL" signature="CosTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.CosCalTest@1f792cf]" name="CosTest" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" data-provider="valuesForCosTest" finished-at="2019-08-20T20:42:18 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -737,7 +737,7 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
 at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.failNotEquals(Assert.java:969)
 at org.testng.Assert.assertEquals(Assert.java:640)
-at com.epam.cdp.tests.CosCalTest.CosTest(CosCalTest.java:11)
+at com.epam.cdp.tests.testng.CosCalTest.CosTest(CosCalTest.java:11)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -771,7 +771,11 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CosTest -->
-        <test-method status="FAIL" signature="CosTest(double, double)[pri:0, instance:com.epam.cdp.tests.CosCalTest@1b6a447]" name="CosTest" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" data-provider="valuesForCosTest" finished-at="2019-08-19T15:51:39 GMT+04:00">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.testng.CosCalTest@1f792cf]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" finished-at="2019-08-20T20:42:18 GMT+04:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="CosTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.CosCalTest@1f792cf]" name="CosTest" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" data-provider="valuesForCosTest" finished-at="2019-08-20T20:42:18 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -793,7 +797,7 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
 at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.failNotEquals(Assert.java:969)
 at org.testng.Assert.assertEquals(Assert.java:640)
-at com.epam.cdp.tests.CosCalTest.CosTest(CosCalTest.java:11)
+at com.epam.cdp.tests.testng.CosCalTest.CosTest(CosCalTest.java:11)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -827,71 +831,11 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CosTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.CosCalTest@1b6a447]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" finished-at="2019-08-19T15:51:39 GMT+04:00">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-      </class> <!-- com.epam.cdp.tests.CosCalTest -->
+      </class> <!-- com.epam.cdp.tests.testng.CosCalTest -->
     </test> <!-- Cos Cal Test -->
-    <test name="Ctg Cal Test" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" finished-at="2019-08-19T15:51:39 GMT+04:00">
-      <class name="com.epam.cdp.tests.CtgCalTest">
-        <test-method status="FAIL" signature="TgTest(double, double)[pri:0, instance:com.epam.cdp.tests.CtgCalTest@181a1bc]" name="TgTest" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" data-provider="valuesForCtgTest" finished-at="2019-08-19T15:51:39 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[90]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Invalid result of ctg operation! did not expect to find [0.0] but found [1.0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Invalid result of ctg operation! did not expect to find [0.0] but found [1.0]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertEquals(Assert.java:640)
-at com.epam.cdp.tests.CtgCalTest.TgTest(CtgCalTest.java:11)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TgTest -->
-        <test-method status="FAIL" signature="TgTest(double, double)[pri:0, instance:com.epam.cdp.tests.CtgCalTest@181a1bc]" name="TgTest" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" data-provider="valuesForCtgTest" finished-at="2019-08-19T15:51:39 GMT+04:00">
+    <test name="Ctg Cal Test" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" finished-at="2019-08-20T20:42:18 GMT+04:00">
+      <class name="com.epam.cdp.tests.testng.CtgCalTest">
+        <test-method status="FAIL" signature="TgTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.CtgCalTest@3e6358]" name="TgTest" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" data-provider="valuesForCtgTest" finished-at="2019-08-20T20:42:18 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -913,7 +857,7 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
 at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.failNotEquals(Assert.java:969)
 at org.testng.Assert.assertEquals(Assert.java:640)
-at com.epam.cdp.tests.CtgCalTest.TgTest(CtgCalTest.java:11)
+at com.epam.cdp.tests.testng.CtgCalTest.TgTest(CtgCalTest.java:11)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -947,7 +891,11 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TgTest -->
-        <test-method status="PASS" signature="TgTest(double, double)[pri:0, instance:com.epam.cdp.tests.CtgCalTest@181a1bc]" name="TgTest" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" data-provider="valuesForCtgTest" finished-at="2019-08-19T15:51:39 GMT+04:00">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.testng.CtgCalTest@3e6358]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" finished-at="2019-08-20T20:42:18 GMT+04:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="TgTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.CtgCalTest@3e6358]" name="TgTest" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" data-provider="valuesForCtgTest" finished-at="2019-08-20T20:42:18 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -963,59 +911,75 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TgTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.CtgCalTest@181a1bc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" finished-at="2019-08-19T15:51:39 GMT+04:00">
+        <test-method status="FAIL" signature="TgTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.CtgCalTest@3e6358]" name="TgTest" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" data-provider="valuesForCtgTest" finished-at="2019-08-20T20:42:18 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of ctg operation! did not expect to find [0.0] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of ctg operation! did not expect to find [0.0] but found [1.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.cdp.tests.testng.CtgCalTest.TgTest(CtgCalTest.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.CtgCalTest@181a1bc]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:39 GMT+04:00" finished-at="2019-08-19T15:51:39 GMT+04:00">
+        </test-method> <!-- TgTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.testng.CtgCalTest@3e6358]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:18 GMT+04:00" finished-at="2019-08-20T20:42:18 GMT+04:00">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-      </class> <!-- com.epam.cdp.tests.CtgCalTest -->
+      </class> <!-- com.epam.cdp.tests.testng.CtgCalTest -->
     </test> <!-- Ctg Cal Test -->
-    <test name="IsNegative Cal Test" duration-ms="15" started-at="2019-08-19T15:51:40 GMT+04:00" finished-at="2019-08-19T15:51:40 GMT+04:00">
-      <class name="com.epam.cdp.tests.IsNegativeCalTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.IsNegativeCalTest@bc464]" name="setUp" is-config="true" duration-ms="15" started-at="2019-08-19T15:51:40 GMT+04:00" finished-at="2019-08-19T15:51:40 GMT+04:00">
+    <test name="IsNegative Cal Test" duration-ms="4" started-at="2019-08-20T20:42:19 GMT+04:00" finished-at="2019-08-20T20:42:19 GMT+04:00">
+      <class name="com.epam.cdp.tests.testng.IsNegativeCalTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.testng.IsNegativeCalTest@43840]" name="setUp" is-config="true" duration-ms="4" started-at="2019-08-20T20:42:19 GMT+04:00" finished-at="2019-08-20T20:42:19 GMT+04:00">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.IsNegativeCalTest@bc464]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" finished-at="2019-08-19T15:51:40 GMT+04:00">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="IsNegativeTest(long, boolean)[pri:0, instance:com.epam.cdp.tests.IsNegativeCalTest@bc464]" name="IsNegativeTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForIsNegativeTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IsNegativeTest -->
-        <test-method status="PASS" signature="IsNegativeTest(long, boolean)[pri:0, instance:com.epam.cdp.tests.IsNegativeCalTest@bc464]" name="IsNegativeTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForIsNegativeTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IsNegativeTest -->
-        <test-method status="PASS" signature="IsNegativeTest(long, boolean)[pri:0, instance:com.epam.cdp.tests.IsNegativeCalTest@bc464]" name="IsNegativeTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForIsNegativeTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
+        <test-method status="PASS" signature="IsNegativeTest(long, boolean)[pri:0, instance:com.epam.cdp.tests.testng.IsNegativeCalTest@43840]" name="IsNegativeTest" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" data-provider="valuesForIsNegativeTest" finished-at="2019-08-20T20:42:19 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -1031,7 +995,23 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IsNegativeTest -->
-        <test-method status="PASS" signature="IsNegativeTest(long, boolean)[pri:0, instance:com.epam.cdp.tests.IsNegativeCalTest@bc464]" name="IsNegativeTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForIsNegativeTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
+        <test-method status="PASS" signature="IsNegativeTest(long, boolean)[pri:0, instance:com.epam.cdp.tests.testng.IsNegativeCalTest@43840]" name="IsNegativeTest" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" data-provider="valuesForIsNegativeTest" finished-at="2019-08-20T20:42:19 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IsNegativeTest -->
+        <test-method status="PASS" signature="IsNegativeTest(long, boolean)[pri:0, instance:com.epam.cdp.tests.testng.IsNegativeCalTest@43840]" name="IsNegativeTest" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" data-provider="valuesForIsNegativeTest" finished-at="2019-08-20T20:42:19 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -1047,67 +1027,31 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IsNegativeTest -->
-      </class> <!-- com.epam.cdp.tests.IsNegativeCalTest -->
+        <test-method status="PASS" signature="IsNegativeTest(long, boolean)[pri:0, instance:com.epam.cdp.tests.testng.IsNegativeCalTest@43840]" name="IsNegativeTest" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" data-provider="valuesForIsNegativeTest" finished-at="2019-08-20T20:42:19 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IsNegativeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.testng.IsNegativeCalTest@43840]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" finished-at="2019-08-20T20:42:19 GMT+04:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.cdp.tests.testng.IsNegativeCalTest -->
     </test> <!-- IsNegative Cal Test -->
-    <test name="IsPositive Cal Test" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" finished-at="2019-08-19T15:51:40 GMT+04:00">
-      <class name="com.epam.cdp.tests.IsPositiveCalTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.IsPositiveCalTest@1624da6]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" finished-at="2019-08-19T15:51:40 GMT+04:00">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="IsPositiveTest(long, boolean)[pri:0, instance:com.epam.cdp.tests.IsPositiveCalTest@1624da6]" name="IsPositiveTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForIsPositiveTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[false]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IsPositiveTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.IsPositiveCalTest@1624da6]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" finished-at="2019-08-19T15:51:40 GMT+04:00">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="IsPositiveTest(long, boolean)[pri:0, instance:com.epam.cdp.tests.IsPositiveCalTest@1624da6]" name="IsPositiveTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForIsPositiveTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[90]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IsPositiveTest -->
-        <test-method status="PASS" signature="IsPositiveTest(long, boolean)[pri:0, instance:com.epam.cdp.tests.IsPositiveCalTest@1624da6]" name="IsPositiveTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForIsPositiveTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[true]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IsPositiveTest -->
-        <test-method status="PASS" signature="IsPositiveTest(long, boolean)[pri:0, instance:com.epam.cdp.tests.IsPositiveCalTest@1624da6]" name="IsPositiveTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForIsPositiveTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
+    <test name="IsPositive Cal Test" duration-ms="4" started-at="2019-08-20T20:42:19 GMT+04:00" finished-at="2019-08-20T20:42:19 GMT+04:00">
+      <class name="com.epam.cdp.tests.testng.IsPositiveCalTest">
+        <test-method status="PASS" signature="IsPositiveTest(long, boolean)[pri:0, instance:com.epam.cdp.tests.testng.IsPositiveCalTest@b2c100]" name="IsPositiveTest" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" data-provider="valuesForIsPositiveTest" finished-at="2019-08-20T20:42:19 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -1123,202 +1067,71 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IsPositiveTest -->
-      </class> <!-- com.epam.cdp.tests.IsPositiveCalTest -->
+        <test-method status="PASS" signature="IsPositiveTest(long, boolean)[pri:0, instance:com.epam.cdp.tests.testng.IsPositiveCalTest@b2c100]" name="IsPositiveTest" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" data-provider="valuesForIsPositiveTest" finished-at="2019-08-20T20:42:19 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IsPositiveTest -->
+        <test-method status="PASS" signature="IsPositiveTest(long, boolean)[pri:0, instance:com.epam.cdp.tests.testng.IsPositiveCalTest@b2c100]" name="IsPositiveTest" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" data-provider="valuesForIsPositiveTest" finished-at="2019-08-20T20:42:19 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IsPositiveTest -->
+        <test-method status="PASS" signature="IsPositiveTest(long, boolean)[pri:0, instance:com.epam.cdp.tests.testng.IsPositiveCalTest@b2c100]" name="IsPositiveTest" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" data-provider="valuesForIsPositiveTest" finished-at="2019-08-20T20:42:19 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IsPositiveTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.testng.IsPositiveCalTest@b2c100]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" finished-at="2019-08-20T20:42:19 GMT+04:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.testng.IsPositiveCalTest@b2c100]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" finished-at="2019-08-20T20:42:19 GMT+04:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.cdp.tests.testng.IsPositiveCalTest -->
     </test> <!-- IsPositive Cal Test -->
-    <test name="Pow Cal Test" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" finished-at="2019-08-19T15:51:40 GMT+04:00">
-      <class name="com.epam.cdp.tests.PowCalTest">
-        <test-method status="FAIL" signature="PowTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.PowCalTest@1b52d12]" name="PowTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForPowTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[23]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[33]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Invalid result of pow operation! did not expect to find [33.0] but found [1.0000000000000001E23]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Invalid result of pow operation! did not expect to find [33.0] but found [1.0000000000000001E23]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertEquals(Assert.java:640)
-at com.epam.cdp.tests.PowCalTest.PowTest(PowCalTest.java:11)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PowTest -->
-        <test-method status="FAIL" signature="PowTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.PowCalTest@1b52d12]" name="PowTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForPowTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-1]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[9]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Invalid result of pow operation! did not expect to find [9.0] but found [0.1]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Invalid result of pow operation! did not expect to find [9.0] but found [0.1]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertEquals(Assert.java:640)
-at com.epam.cdp.tests.PowCalTest.PowTest(PowCalTest.java:11)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PowTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.PowCalTest@1b52d12]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" finished-at="2019-08-19T15:51:40 GMT+04:00">
+    <test name="Pow Cal Test" duration-ms="4" started-at="2019-08-20T20:42:19 GMT+04:00" finished-at="2019-08-20T20:42:19 GMT+04:00">
+      <class name="com.epam.cdp.tests.testng.PowCalTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.testng.PowCalTest@167135c]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" finished-at="2019-08-20T20:42:19 GMT+04:00">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.PowCalTest@1b52d12]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" finished-at="2019-08-19T15:51:40 GMT+04:00">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="PowTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.PowCalTest@1b52d12]" name="PowTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForPowTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Invalid result of pow operation! did not expect to find [0.0] but found [1.0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Invalid result of pow operation! did not expect to find [0.0] but found [1.0]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertEquals(Assert.java:640)
-at com.epam.cdp.tests.PowCalTest.PowTest(PowCalTest.java:11)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PowTest -->
-        <test-method status="FAIL" signature="PowTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.PowCalTest@1b52d12]" name="PowTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForPowTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
+        <test-method status="PASS" signature="PowTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.testng.PowCalTest@167135c]" name="PowTest" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" data-provider="valuesForPowTest" finished-at="2019-08-20T20:42:19 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -1327,25 +1140,46 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
             </param>
             <param index="1">
               <value>
-                <![CDATA[10]]>
+                <![CDATA[2]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[9]]>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PowTest -->
+        <test-method status="FAIL" signature="PowTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.testng.PowCalTest@167135c]" name="PowTest" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" data-provider="valuesForPowTest" finished-at="2019-08-20T20:42:19 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
               </value>
             </param>
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Invalid result of pow operation! did not expect to find [9.0] but found [1.0]]]>
+              <![CDATA[Invalid result of pow operation! did not expect to find [2.0] but found [0.0625]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Invalid result of pow operation! did not expect to find [9.0] but found [1.0]
+              <![CDATA[java.lang.AssertionError: Invalid result of pow operation! did not expect to find [2.0] but found [0.0625]
 at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.failNotEquals(Assert.java:969)
 at org.testng.Assert.assertEquals(Assert.java:640)
-at com.epam.cdp.tests.PowCalTest.PowTest(PowCalTest.java:11)
+at com.epam.cdp.tests.testng.PowCalTest.PowTest(PowCalTest.java:11)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1379,131 +1213,57 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PowTest -->
-      </class> <!-- com.epam.cdp.tests.PowCalTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.testng.PowCalTest@167135c]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" finished-at="2019-08-20T20:42:19 GMT+04:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="PowTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.testng.PowCalTest@167135c]" name="PowTest" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" data-provider="valuesForPowTest" finished-at="2019-08-20T20:42:19 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[49]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PowTest -->
+        <test-method status="PASS" signature="PowTest(double, double, double)[pri:0, instance:com.epam.cdp.tests.testng.PowCalTest@167135c]" name="PowTest" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" data-provider="valuesForPowTest" finished-at="2019-08-20T20:42:19 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PowTest -->
+      </class> <!-- com.epam.cdp.tests.testng.PowCalTest -->
     </test> <!-- Pow Cal Test -->
-    <test name="Sin Cal Test" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" finished-at="2019-08-19T15:51:40 GMT+04:00">
-      <class name="com.epam.cdp.tests.SinCalTest">
-        <test-method status="FAIL" signature="SinTest(double, double)[pri:0, instance:com.epam.cdp.tests.SinCalTest@10f6bfd]" name="SinTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForSinTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[270]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[-1]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Invalid result of sin operation! did not expect to find [-1.0] but found [-0.1760459464712114]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Invalid result of sin operation! did not expect to find [-1.0] but found [-0.1760459464712114]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertEquals(Assert.java:640)
-at com.epam.cdp.tests.SinCalTest.SinTest(SinCalTest.java:11)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SinTest -->
-        <test-method status="FAIL" signature="SinTest(double, double)[pri:0, instance:com.epam.cdp.tests.SinCalTest@10f6bfd]" name="SinTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForSinTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[30]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0.5]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Invalid result of sin operation! did not expect to find [0.5] but found [-0.9880316240928618]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Invalid result of sin operation! did not expect to find [0.5] but found [-0.9880316240928618]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertEquals(Assert.java:640)
-at com.epam.cdp.tests.SinCalTest.SinTest(SinCalTest.java:11)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SinTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.SinCalTest@10f6bfd]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" finished-at="2019-08-19T15:51:40 GMT+04:00">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.SinCalTest@10f6bfd]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" finished-at="2019-08-19T15:51:40 GMT+04:00">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="SinTest(double, double)[pri:0, instance:com.epam.cdp.tests.SinCalTest@10f6bfd]" name="SinTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForSinTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
+    <test name="Sin Cal Test" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" finished-at="2019-08-20T20:42:19 GMT+04:00">
+      <class name="com.epam.cdp.tests.testng.SinCalTest">
+        <test-method status="FAIL" signature="SinTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.SinCalTest@136f0f5]" name="SinTest" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" data-provider="valuesForSinTest" finished-at="2019-08-20T20:42:19 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -1525,7 +1285,7 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
 at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.failNotEquals(Assert.java:969)
 at org.testng.Assert.assertEquals(Assert.java:640)
-at com.epam.cdp.tests.SinCalTest.SinTest(SinCalTest.java:11)
+at com.epam.cdp.tests.testng.SinCalTest.SinTest(SinCalTest.java:11)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1559,7 +1319,7 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SinTest -->
-        <test-method status="PASS" signature="SinTest(double, double)[pri:0, instance:com.epam.cdp.tests.SinCalTest@10f6bfd]" name="SinTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForSinTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
+        <test-method status="PASS" signature="SinTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.SinCalTest@136f0f5]" name="SinTest" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" data-provider="valuesForSinTest" finished-at="2019-08-20T20:42:19 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -1575,15 +1335,135 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SinTest -->
-      </class> <!-- com.epam.cdp.tests.SinCalTest -->
-    </test> <!-- Sin Cal Test -->
-    <test name="Sqrt Cal Test" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" finished-at="2019-08-19T15:51:40 GMT+04:00">
-      <class name="com.epam.cdp.tests.SqrtCalTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.SqrtCalTest@1a03464]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" finished-at="2019-08-19T15:51:40 GMT+04:00">
+        <test-method status="FAIL" signature="SinTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.SinCalTest@136f0f5]" name="SinTest" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" data-provider="valuesForSinTest" finished-at="2019-08-20T20:42:19 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[270]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of sin operation! did not expect to find [-1.0] but found [-0.1760459464712114]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of sin operation! did not expect to find [-1.0] but found [-0.1760459464712114]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.cdp.tests.testng.SinCalTest.SinTest(SinCalTest.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SinTest -->
+        <test-method status="FAIL" signature="SinTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.SinCalTest@136f0f5]" name="SinTest" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" data-provider="valuesForSinTest" finished-at="2019-08-20T20:42:19 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.5]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of sin operation! did not expect to find [0.5] but found [-0.9880316240928618]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of sin operation! did not expect to find [0.5] but found [-0.9880316240928618]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.cdp.tests.testng.SinCalTest.SinTest(SinCalTest.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SinTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.testng.SinCalTest@136f0f5]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" finished-at="2019-08-20T20:42:19 GMT+04:00">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="SqrtTest(double, double)[pri:0, instance:com.epam.cdp.tests.SqrtCalTest@1a03464]" name="SqrtTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForSqrtTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.testng.SinCalTest@136f0f5]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:19 GMT+04:00" finished-at="2019-08-20T20:42:19 GMT+04:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.epam.cdp.tests.testng.SinCalTest -->
+    </test> <!-- Sin Cal Test -->
+    <test name="Sqrt Cal Test" duration-ms="4" started-at="2019-08-20T20:42:20 GMT+04:00" finished-at="2019-08-20T20:42:20 GMT+04:00">
+      <class name="com.epam.cdp.tests.testng.SqrtCalTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.testng.SqrtCalTest@1b6d4ae]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:20 GMT+04:00" finished-at="2019-08-20T20:42:20 GMT+04:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SqrtTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.SqrtCalTest@1b6d4ae]" name="SqrtTest" duration-ms="4" started-at="2019-08-20T20:42:20 GMT+04:00" data-provider="valuesForSqrtTest" finished-at="2019-08-20T20:42:20 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -1599,23 +1479,7 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SqrtTest -->
-        <test-method status="PASS" signature="SqrtTest(double, double)[pri:0, instance:com.epam.cdp.tests.SqrtCalTest@1a03464]" name="SqrtTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForSqrtTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[16]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SqrtTest -->
-        <test-method status="PASS" signature="SqrtTest(double, double)[pri:0, instance:com.epam.cdp.tests.SqrtCalTest@1a03464]" name="SqrtTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForSqrtTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
+        <test-method status="PASS" signature="SqrtTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.SqrtCalTest@1b6d4ae]" name="SqrtTest" duration-ms="0" started-at="2019-08-20T20:42:20 GMT+04:00" data-provider="valuesForSqrtTest" finished-at="2019-08-20T20:42:20 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -1631,7 +1495,27 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SqrtTest -->
-        <test-method status="PASS" signature="SqrtTest(double, double)[pri:0, instance:com.epam.cdp.tests.SqrtCalTest@1a03464]" name="SqrtTest" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" data-provider="valuesForSqrtTest" finished-at="2019-08-19T15:51:40 GMT+04:00">
+        <test-method status="PASS" signature="SqrtTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.SqrtCalTest@1b6d4ae]" name="SqrtTest" duration-ms="0" started-at="2019-08-20T20:42:20 GMT+04:00" data-provider="valuesForSqrtTest" finished-at="2019-08-20T20:42:20 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SqrtTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.testng.SqrtCalTest@1b6d4ae]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:20 GMT+04:00" finished-at="2019-08-20T20:42:20 GMT+04:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="SqrtTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.SqrtCalTest@1b6d4ae]" name="SqrtTest" duration-ms="0" started-at="2019-08-20T20:42:20 GMT+04:00" data-provider="valuesForSqrtTest" finished-at="2019-08-20T20:42:20 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -1647,147 +1531,11 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SqrtTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.SqrtCalTest@1a03464]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:40 GMT+04:00" finished-at="2019-08-19T15:51:40 GMT+04:00">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.epam.cdp.tests.SqrtCalTest -->
+      </class> <!-- com.epam.cdp.tests.testng.SqrtCalTest -->
     </test> <!-- Sqrt Cal Test -->
-    <test name="Tg Cal Test" duration-ms="0" started-at="2019-08-19T15:51:41 GMT+04:00" finished-at="2019-08-19T15:51:41 GMT+04:00">
-      <class name="com.epam.cdp.tests.TgCalTest">
-        <test-method status="FAIL" signature="TgTest(double, double)[pri:0, instance:com.epam.cdp.tests.TgCalTest@1f97b55]" name="TgTest" duration-ms="0" started-at="2019-08-19T15:51:41 GMT+04:00" data-provider="valuesForTgTest" finished-at="2019-08-19T15:51:41 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[360]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Invalid result of tg operation! did not expect to find [0.0] but found [1.0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Invalid result of tg operation! did not expect to find [0.0] but found [1.0]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertEquals(Assert.java:640)
-at com.epam.cdp.tests.TgCalTest.TgTest(TgCalTest.java:11)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TgTest -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.TgCalTest@1f97b55]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:41 GMT+04:00" finished-at="2019-08-19T15:51:41 GMT+04:00">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="TgTest(double, double)[pri:0, instance:com.epam.cdp.tests.TgCalTest@1f97b55]" name="TgTest" duration-ms="0" started-at="2019-08-19T15:51:41 GMT+04:00" data-provider="valuesForTgTest" finished-at="2019-08-19T15:51:41 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[45]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TgTest -->
-        <test-method status="FAIL" signature="TgTest(double, double)[pri:0, instance:com.epam.cdp.tests.TgCalTest@1f97b55]" name="TgTest" duration-ms="0" started-at="2019-08-19T15:51:41 GMT+04:00" data-provider="valuesForTgTest" finished-at="2019-08-19T15:51:41 GMT+04:00">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Invalid result of tg operation! did not expect to find [0.0] but found [NaN]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Invalid result of tg operation! did not expect to find [0.0] but found [NaN]
-at org.testng.Assert.fail(Assert.java:97)
-at org.testng.Assert.failNotEquals(Assert.java:969)
-at org.testng.Assert.assertEquals(Assert.java:640)
-at com.epam.cdp.tests.TgCalTest.TgTest(TgCalTest.java:11)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(ArrayList.java:1257)
-at org.testng.TestRunner.privateRun(TestRunner.java:770)
-at org.testng.TestRunner.run(TestRunner.java:591)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TgTest -->
-        <test-method status="FAIL" signature="TgTest(double, double)[pri:0, instance:com.epam.cdp.tests.TgCalTest@1f97b55]" name="TgTest" duration-ms="0" started-at="2019-08-19T15:51:41 GMT+04:00" data-provider="valuesForTgTest" finished-at="2019-08-19T15:51:41 GMT+04:00">
+    <test name="Tg Cal Test" duration-ms="4" started-at="2019-08-20T20:42:20 GMT+04:00" finished-at="2019-08-20T20:42:20 GMT+04:00">
+      <class name="com.epam.cdp.tests.testng.TgCalTest">
+        <test-method status="FAIL" signature="TgTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.TgCalTest@a097cc]" name="TgTest" duration-ms="0" started-at="2019-08-20T20:42:20 GMT+04:00" data-provider="valuesForTgTest" finished-at="2019-08-20T20:42:20 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -1809,7 +1557,7 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
 at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.failNotEquals(Assert.java:969)
 at org.testng.Assert.assertEquals(Assert.java:640)
-at com.epam.cdp.tests.TgCalTest.TgTest(TgCalTest.java:11)
+at com.epam.cdp.tests.testng.TgCalTest.TgTest(TgCalTest.java:11)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1843,14 +1591,146 @@ at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TgTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.TgCalTest@1f97b55]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-19T15:51:41 GMT+04:00" finished-at="2019-08-19T15:51:41 GMT+04:00">
+        <test-method status="FAIL" signature="TgTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.TgCalTest@a097cc]" name="TgTest" duration-ms="0" started-at="2019-08-20T20:42:20 GMT+04:00" data-provider="valuesForTgTest" finished-at="2019-08-20T20:42:20 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of tg operation! did not expect to find [0.0] but found [NaN]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of tg operation! did not expect to find [0.0] but found [NaN]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.cdp.tests.testng.TgCalTest.TgTest(TgCalTest.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TgTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.cdp.tests.testng.TgCalTest@a097cc]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:20 GMT+04:00" finished-at="2019-08-20T20:42:20 GMT+04:00">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TgTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.TgCalTest@a097cc]" name="TgTest" duration-ms="0" started-at="2019-08-20T20:42:20 GMT+04:00" data-provider="valuesForTgTest" finished-at="2019-08-20T20:42:20 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TgTest -->
+        <test-method status="FAIL" signature="TgTest(double, double)[pri:0, instance:com.epam.cdp.tests.testng.TgCalTest@a097cc]" name="TgTest" duration-ms="0" started-at="2019-08-20T20:42:20 GMT+04:00" data-provider="valuesForTgTest" finished-at="2019-08-20T20:42:20 GMT+04:00">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[360]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Invalid result of tg operation! did not expect to find [0.0] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Invalid result of tg operation! did not expect to find [0.0] but found [1.0]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertEquals(Assert.java:640)
+at com.epam.cdp.tests.testng.TgCalTest.TgTest(TgCalTest.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1175)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at com.epam.cdp.tests.testng.Runner.main(Runner.java:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TgTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.epam.cdp.tests.testng.TgCalTest@a097cc]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-20T20:42:20 GMT+04:00" finished-at="2019-08-20T20:42:20 GMT+04:00">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.epam.cdp.tests.TgCalTest -->
+      </class> <!-- com.epam.cdp.tests.testng.TgCalTest -->
     </test> <!-- Tg Cal Test -->
   </suite> <!-- Demo Suite -->
-  <suite name="Default Suite" duration-ms="0" started-at="2019-08-19T15:51:41 GMT+04:00" finished-at="2019-08-19T15:51:41 GMT+04:00">
+  <suite name="Default Suite" duration-ms="0" started-at="2019-08-20T20:42:20 GMT+04:00" finished-at="2019-08-20T20:42:20 GMT+04:00">
     <groups>
     </groups>
   </suite> <!-- Default Suite -->

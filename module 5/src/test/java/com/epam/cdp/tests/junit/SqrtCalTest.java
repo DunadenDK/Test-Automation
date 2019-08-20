@@ -6,7 +6,9 @@ import org.junit.runners.Parameterized;
 import java.util.Arrays;
 import java.util.Collection;
 
+
 import static org.junit.Assert.assertEquals;
+
 
 @RunWith (Parameterized.class)
 public class SqrtCalTest extends BaseTest {
@@ -24,7 +26,7 @@ public class SqrtCalTest extends BaseTest {
         return Arrays.asList(new Object[][]{
                 {4, 2},
                 {9, 3},
-                {16, 4},
+                {-5, 0},
                 {100, 10}
         });
     }

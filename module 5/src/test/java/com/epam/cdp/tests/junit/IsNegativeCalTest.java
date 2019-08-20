@@ -22,7 +22,7 @@ public class IsNegativeCalTest extends BaseTest {
         return Arrays.asList(new Object[][]{
                 {0, false},
                 {1, false},
-                {90, false},
+                {90, true},
                 {-2, true}
         });
     }

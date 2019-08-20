@@ -16,7 +16,7 @@ public class SqrtCalTest extends BaseTest{
         return new Object[][] {
                 {4, 2},
                 {9, 3},
-                {16, 4},
+                {-5, 0},
                 {100, 10}
         };
     }

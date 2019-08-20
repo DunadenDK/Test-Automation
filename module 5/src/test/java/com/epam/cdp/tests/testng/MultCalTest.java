@@ -16,7 +16,7 @@ public class MultCalTest extends BaseTest {
                 {5, 3, 15},
                 {10, -1, -10},
                 {0, 0, 0},
-                {6, 10, 60}
+                {2.2, 5.5, 12.1}
         };
     }
 

@@ -6,68 +6,68 @@
   </listeners>
   <test thread-count="5" name="Mult Cal Test(failed)">
     <classes>
-      <class name="com.epam.cdp.tests.MultCalTest">
+      <class name="com.epam.cdp.tests.testng.MultCalTest">
         <methods>
           <include name="tearDown"/>
-          <include name="setUp"/>
           <include name="doubleOneMultTwoTest" invocation-numbers="0"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.epam.cdp.tests.MultCalTest -->
+      </class> <!-- com.epam.cdp.tests.testng.MultCalTest -->
     </classes>
   </test> <!-- Mult Cal Test(failed) -->
   <test thread-count="5" name="Cos Cal Test(failed)">
     <classes>
-      <class name="com.epam.cdp.tests.CosCalTest">
+      <class name="com.epam.cdp.tests.testng.CosCalTest">
         <methods>
           <include name="tearDown"/>
-          <include name="setUp"/>
           <include name="CosTest" invocation-numbers="0 1 2 3"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.epam.cdp.tests.CosCalTest -->
+      </class> <!-- com.epam.cdp.tests.testng.CosCalTest -->
     </classes>
   </test> <!-- Cos Cal Test(failed) -->
   <test thread-count="5" name="Ctg Cal Test(failed)">
     <classes>
-      <class name="com.epam.cdp.tests.CtgCalTest">
+      <class name="com.epam.cdp.tests.testng.CtgCalTest">
         <methods>
-          <include name="tearDown"/>
           <include name="TgTest" invocation-numbers="1 2"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.epam.cdp.tests.CtgCalTest -->
+      </class> <!-- com.epam.cdp.tests.testng.CtgCalTest -->
     </classes>
   </test> <!-- Ctg Cal Test(failed) -->
   <test thread-count="5" name="Pow Cal Test(failed)">
     <classes>
-      <class name="com.epam.cdp.tests.PowCalTest">
+      <class name="com.epam.cdp.tests.testng.PowCalTest">
         <methods>
+          <include name="PowTest" invocation-numbers="1"/>
           <include name="tearDown"/>
-          <include name="PowTest" invocation-numbers="0 1 2 3"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.epam.cdp.tests.PowCalTest -->
+      </class> <!-- com.epam.cdp.tests.testng.PowCalTest -->
     </classes>
   </test> <!-- Pow Cal Test(failed) -->
   <test thread-count="5" name="Sin Cal Test(failed)">
     <classes>
-      <class name="com.epam.cdp.tests.SinCalTest">
+      <class name="com.epam.cdp.tests.testng.SinCalTest">
         <methods>
+          <include name="SinTest" invocation-numbers="1 2 3"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="SinTest" invocation-numbers="1 2 3"/>
         </methods>
-      </class> <!-- com.epam.cdp.tests.SinCalTest -->
+      </class> <!-- com.epam.cdp.tests.testng.SinCalTest -->
     </classes>
   </test> <!-- Sin Cal Test(failed) -->
   <test thread-count="5" name="Tg Cal Test(failed)">
     <classes>
-      <class name="com.epam.cdp.tests.TgCalTest">
+      <class name="com.epam.cdp.tests.testng.TgCalTest">
         <methods>
+          <include name="TgTest" invocation-numbers="0 2 3"/>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="TgTest" invocation-numbers="0 2 3"/>
         </methods>
-      </class> <!-- com.epam.cdp.tests.TgCalTest -->
+      </class> <!-- com.epam.cdp.tests.testng.TgCalTest -->
     </classes>
   </test> <!-- Tg Cal Test(failed) -->
 </suite> <!-- Failed suite [Demo Suite] -->
