@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b25d1415-6515-46fd-9b12-ec6b2534daf0" name="Default Changelist" comment="" />
+    <list default="true" id="b25d1415-6515-46fd-9b12-ec6b2534daf0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,53 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/HelloWebDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="33" column="162" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="162" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/WebDriverSyncDemoFluent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CustomConditions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -76,6 +33,7 @@
         <option value="$PROJECT_DIR$/src/test/java/CustomConditions.java" />
         <option value="$PROJECT_DIR$/src/test/java/HelloWebDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/WebDriverSyncDemoFluent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hurtMe.java" />
       </list>
     </option>
   </component>
@@ -86,7 +44,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-4" />
     <option name="y" value="-18" />
     <option name="width" value="1346" />
@@ -98,8 +56,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,6 +78,13 @@
               <item name="hellowebdriver" type="b2602c69:ProjectViewProjectNode" />
               <item name="hellowebdriver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellowebdriver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellowebdriver" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -135,10 +98,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565786697374" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566753242604" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/git repos/web" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -157,25 +122,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WebDriverSyncDemoFluent">
-    <configuration name="HelloWebDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWebDriver" />
+  <component name="RunManager" selected="TestNG.hurtMe (2)">
+    <configuration name="hurtMe (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hellowebdriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="hurtMe" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebDriverSyncDemoFluent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WebDriverSyncDemoFluent" />
+    <configuration name="hurtMe (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hellowebdriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="hurtMe" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hurtMe (4)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hellowebdriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="hurtMe" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hurtMe (5)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hellowebdriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="hurtMe" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hurtMe" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hellowebdriver" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="hurtMe" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WebDriverSyncDemoFluent" />
-        <item itemvalue="Application.HelloWebDriver" />
+        <item itemvalue="TestNG.hurtMe (2)" />
+        <item itemvalue="TestNG.hurtMe (1)" />
+        <item itemvalue="TestNG.hurtMe" />
+        <item itemvalue="TestNG.hurtMe (5)" />
+        <item itemvalue="TestNG.hurtMe (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -192,8 +196,40 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="hurtMe - 2019.08.24 at 15h 51m 12s.xml">
+      <configuration name="hurtMe" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="hurtMe_(1) - 2019.08.24 at 15h 53m 18s.xml">
+      <configuration name="hurtMe (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="hurtMe_(4) - 2019.08.24 at 15h 55m 40s.xml">
+      <configuration name="hurtMe (4)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="hurtMe_(2) - 2019.08.24 at 15h 56m 31s.xml">
+      <configuration name="hurtMe (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="hurtMe_(3) - 2019.08.24 at 15h 57m 41s.xml">
+      <configuration name="hurtMe (3)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="hurtMe_(4) - 2019.08.24 at 15h 59m 37s.xml">
+      <configuration name="hurtMe (4)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="hurtMe_(5) - 2019.08.24 at 18h 18m 18s.xml">
+      <configuration name="hurtMe (5)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="hurtMe - 2019.08.24 at 18h 28m 58s.xml">
+      <configuration name="hurtMe" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="hurtMe_(1) - 2019.08.24 at 18h 31m 55s.xml">
+      <configuration name="hurtMe (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="hurtMe_(2) - 2019.08.24 at 18h 34m 06s.xml">
+      <configuration name="hurtMe (2)" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
@@ -254,11 +290,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/HelloWebDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="33" column="162" selection-start-line="33" selection-start-column="70" selection-end-line="33" selection-end-column="162" />
+        <state relative-caret-position="34">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HurtMePlenty.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/hurtMe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BringItOn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
