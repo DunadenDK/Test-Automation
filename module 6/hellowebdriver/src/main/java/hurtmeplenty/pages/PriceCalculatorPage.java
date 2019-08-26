@@ -121,11 +121,8 @@ public class PriceCalculatorPage extends AbstractPage {
     selectParameter(numberOfGPUsList, NumberOfGPUs);
     dropDownBoxGPUType.click();        
     selectParameter(GPUTypeList, GPUType);        
-    //Actions actions = new Actions(driver);
-    //actions.moveToElement(dropDownBoxLocalSSD).build().perform();
     dropDownBoxLocalSSD.click();
     selectParameter(localSSDList,LocalSSD);    	
-    //actions.moveToElement(dropDownBoxDatacenterLocation).build().perform();
     dropDownBoxDatacenterLocation.click();
     selectParameter(datacenterLocationList, DatacenterLocation);
     dropDownBoxCommitedUsage.click();
