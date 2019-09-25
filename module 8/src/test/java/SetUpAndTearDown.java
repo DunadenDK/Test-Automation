@@ -1,7 +1,7 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
-import java.util.concurrent.TimeUnit;
+
 
 public class SetUpAndTearDown {
 
@@ -14,11 +14,8 @@ public class SetUpAndTearDown {
     @BeforeMethod
     public void browserSetup() {
         prepareChromeBrowser();
-        maximazeBrowser();
-        String timeout = System.getProperty("Timeout");
-        waitImplicitly(driver, Integer.valueOf(timeout));
+        maximizeBrowser();
         goToLoginPage();
-        System.out.println(timeout + "- timeout");
     }
 
     void goToLoginPage() {
@@ -30,12 +27,8 @@ public class SetUpAndTearDown {
         driver = new ChromeDriver();
     }
 
-    void maximazeBrowser() {
+    void maximizeBrowser() {
         driver.manage().window().maximize();
-    }
-
-    public static void waitImplicitly(WebDriver driver, Integer seconds) {
-        driver.manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
     }
 
     @AfterMethod

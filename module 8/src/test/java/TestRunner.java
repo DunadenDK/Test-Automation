@@ -3,7 +3,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.authorization.HomePage;
 
-import java.io.IOException;
+
 import java.util.ArrayList;
 import java.util.List;
 

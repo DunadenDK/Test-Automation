@@ -9,7 +9,7 @@ public class TestData {
 
     private static final String EMAIL_RECIPIENT_VALUE = "denqa.test@gmail.com";
     private static final String EMAIL_SUBJECT_VALUE = "automation task";
-    private static final String EMAIL_BODY_VALUE = "This is test task for webdriever module.";
+    private static final String EMAIL_BODY_VALUE = "This is test task for webdriver module.";
 
 
     public static String getLoginNameValue() {

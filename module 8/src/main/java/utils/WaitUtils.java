@@ -7,25 +7,22 @@ import java.util.concurrent.TimeUnit;
 public class WaitUtils {
 
     public static void waitUntilVisibilityOfElementLocatedBy(WebDriver driver, By by) {
-        Wait wait = new FluentWait(driver).withTimeout(10, TimeUnit.SECONDS)
-                .pollingEvery(1, TimeUnit.SECONDS)
+        Wait wait = new FluentWait(driver)
                 .ignoring(NoSuchElementException.class)
                 .ignoring(ElementClickInterceptedException.class)
                 .ignoring(UnhandledAlertException.class);
         wait.until(ExpectedConditions.visibilityOfElementLocated(by));
     }
     public static void waitUntilVisibilityOfElement(WebDriver driver, WebElement webElement) {
-        Wait wait = new FluentWait(driver).withTimeout(10, TimeUnit.SECONDS)
-                .pollingEvery(1, TimeUnit.SECONDS)
+        Wait wait = new FluentWait(driver)
                 .ignoring(NoSuchElementException.class)
                 .ignoring(ElementClickInterceptedException.class)
                 .ignoring(UnhandledAlertException.class);
         wait.until(ExpectedConditions.visibilityOf(webElement));
     }
 
-    public static void waitUntilClickabilityOfElement(WebDriver driver, WebElement webElement) {
-        Wait wait = new FluentWait(driver).withTimeout(10, TimeUnit.SECONDS)
-                .pollingEvery(1, TimeUnit.SECONDS)
+    public static void waitUntilClickableOfElement(WebDriver driver, WebElement webElement) {
+        Wait wait = new FluentWait(driver)
                 .ignoring(NoSuchElementException.class)
                 .ignoring(ElementClickInterceptedException.class)
                 .ignoring(UnhandledAlertException.class);
