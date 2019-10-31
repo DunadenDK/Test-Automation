@@ -68,25 +68,43 @@ public class WebDriverHelloWorld {
 
         composeEmailButton.click();
 
+        //вбиваем кому в поле адресата
+        
         WebElement toTextField = webDriver.findElement(By.xpath("//input[@class = 'container--H9L5q size_s--3_M-_' and @tabindex = '100']"));
+        
         toTextField.sendKeys(toText);
+        
+        //вбиваем тему в поле subject
+        
         WebElement subjectTextField = webDriver.findElement(By.xpath("//input[@name='Subject']"));
+        
         subjectTextField.sendKeys(generateRandomString(12));
+        
+        //вбиваем контент в поле письма
+        
         WebElement bodyTextArea = webDriver.findElement(By.xpath("//*[@role = 'textbox']"));
+        
         bodyTextArea.sendKeys(bodyText);
+       
         webDriver.switchTo().defaultContent();
+        
         Thread.sleep(2000);
+//сохраняем драфтовое письмо в папку        
         WebElement saveDraft = webDriver.findElement(By.xpath("//button[@title = 'Свернуть']"));
+        
         saveDraft.click();
+        
         Thread.sleep(2000);
+ //открываем список с драфтовыми письмами       
         WebElement draftsButton = webDriver.findElement(By.xpath("//*[@href = '/drafts/']"));
+        
         draftsButton.click();
-
+//открываем письмо из драфта
         WebElement draftEmailItem = new WebDriverWait(webDriver, 10)
                 .ignoring(NoSuchElementException.class)
                 .until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@class='llc__content']")));
         draftEmailItem.click();
-
+//отправляем письмо из драфта
         WebElement sendButton = webDriver.findElement(By.xpath("//span[contains(text(), 'Отправить')]"));
         sendButton.click();
 
