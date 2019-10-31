@@ -1,3 +1,4 @@
+@TEST
 Feature: User can login to existing mailbox
 
   As a User
