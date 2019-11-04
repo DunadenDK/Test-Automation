@@ -29,13 +29,13 @@ public class Letter {
     public String getMailBody() {
         return mailBody;
     }
-/*
+
     public List<String> getLetterSubjectAndBody() {
         List<String> letterAttributes = new ArrayList<>();
         letterAttributes.add(LetterFieldsFiller.withDataFromProperty().getMailSubject());
         letterAttributes.add(LetterFieldsFiller.withDataFromProperty().getMailBody());
         return letterAttributes;    }
-*/
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

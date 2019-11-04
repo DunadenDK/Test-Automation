@@ -4,7 +4,7 @@ import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import driver.DriverSingleton;
 import org.openqa.selenium.WebDriver;
-import org.testng.annotations.*;
+import org.testng.annotations.Listeners;
 import utils.TestListener;
 
 import java.util.concurrent.TimeUnit;
@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class ScenarioHooks {
 
     protected WebDriver driver;
-    private static final String LOGIN_PAGE_URL = "https://mail.ru";
+    private static final String LOGIN_PAGE_URL = "https://mail.ru/";
 
     @Before
     public void browserSetup() {

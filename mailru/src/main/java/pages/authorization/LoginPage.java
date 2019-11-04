@@ -25,15 +25,22 @@ public class LoginPage extends BasePage {
     @FindBy(xpath = PROCEED_BUTTON)
     private WebElement proceedButton;
 
-
+/*
     public CommonPage enterCredentials(Mailbox mailbox) {
         userEntersLoginName(mailbox.getMailboxName());
         userEntersPasswordValue(mailbox.getMailboxPassword());
         logger.info("Login was performed");
         return new CommonPage();
     }
-
-
+*//*
+    public LoginPage userEnterCredentials (){
+        driver.findElement(By.cssSelector("input[name='login']")).sendKeys("denqa.test");
+        driver.findElement(By.xpath("//input[@class='o-control']")).click();
+        driver.findElement(By.cssSelector("input[id='mailbox:password']")).sendKeys("S2501552s");
+        driver.findElement(By.xpath("//input[@class='o-control']")).click();
+        return this;
+    }
+/*
     public LoginPage userEntersLoginName(String mailboxName) {
         WaitUtils.waitUntilVisibilityOfElementLocatedBy(driver, By.xpath(LOGIN_INPUT));
         ElementUtils.highlightElement(driver, By.xpath(LOGIN_INPUT));
@@ -50,7 +57,7 @@ public class LoginPage extends BasePage {
         return new CommonPage();
     }
 
-
+*/
 
     @Override
     protected void waitForPageToBeLoaded() {
