@@ -92,19 +92,6 @@ public class CustomDriverDecorator implements WebDriver {
 				.perform();
 	}
 
-	public static void clickOnElement(WebDriver driver, WebElement element) {
-		Actions action = new Actions(driver);
-		action.moveToElement(element)
-				.click(element)
-				.build()
-				.perform();
-	}
 
-	public static void highlightElement(WebDriver driver, By locator) {
-		((JavascriptExecutor) driver).executeScript("arguments[0].style.border='3px solid green'", driver.findElement(locator));
-	}
 
-	public static void clickElementJs(WebDriver driver, WebElement webElement) {
-		((JavascriptExecutor) driver).executeScript("arguments[0].click()", webElement);
-	}
 }
