@@ -82,16 +82,4 @@ public class CustomDriverDecorator implements WebDriver {
 		driver = null;
 	}
 
-
-	public static void clickOnElementAndTypeData(WebDriver driver, WebElement element, String data) {
-		Actions action = new Actions(driver);
-		action.moveToElement(element)
-				.click(element)
-				.sendKeys(data)
-				.build()
-				.perform();
-	}
-
-
-
 }

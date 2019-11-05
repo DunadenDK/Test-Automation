@@ -53,7 +53,7 @@
                     </systemPropertyVariables>
                     <workingDirectory>./</workingDirectory>
                     <argLine>
-                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/ 1.9.4/aspectjweaver- 1.9.4.jar"
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/1.9.4/aspectjweaver- 1.9.4.jar"
                     </argLine>
                 </configuration>
                 <dependencies>
